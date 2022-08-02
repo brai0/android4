@@ -13,7 +13,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import java.io.FileNotFoundException;
 import java.io.InputStream;
-
+//add to manifest <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"></uses-permission>
 public class MainActivity extends AppCompatActivity
 {
     private static final int REQUEST_CODE_SELECT_IMAGE = 2;
