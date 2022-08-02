@@ -5,20 +5,26 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center_horizontal"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <ImageView
-        android:id="@+id/imgCamera"
-        android:layout_width="400dp"
-        android:layout_height="240dp"
-        android:scaleType="fitXY" />
     <Button
-        android:id="@+id/btnCamera"
-        android:layout_width="wrap_content"
+        android:id="@+id/buttonSelectedImage"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="21dp"
-        android:text="Open Camera"/>
+        android:text="SELECT IMAGE"/>
+
+    <Button
+        android:id="@+id/buttonOpenCamera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OPEN CAMERA" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="676dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
 
 </LinearLayout>
